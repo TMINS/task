@@ -1,0 +1,39 @@
+{
+  "name": "torch",
+  "private": true,
+  "version": "0.0.0",
+  "author": "tmins",
+  "scripts": {
+    "dev": "vite   --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.34",
+    "@wangeditor/editor": "^5.1.22",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "ant-design-vue": "^3.2.13",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.6",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persistedstate": "^3.0.1",
+    "qs": "^6.10.3",
+    "sass": "^1.51.0",
+    "socket.io-client": "^4.5.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "@types/js-md5": "^0.4.3",
+    "@types/lodash": "^4.14.189",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "js-md5": "^0.7.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "typescript": "^4.5.4",
+    "vite": "^3.2.2",
+    "vue-tsc": "^0.34.7"
+  }
+}
